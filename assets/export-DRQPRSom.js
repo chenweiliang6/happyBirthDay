@@ -1,0 +1,1 @@
+function d(o,t="数据导出.xlsx"){const e=document.createElement("a");let n=new Blob([o],{type:"application/vnd.ms-excel"});e.style.display="none",e.href=URL.createObjectURL(n),e.download=t,document.body.appendChild(e),e.click(),document.body.removeChild(e)}export{d};
